@@ -18,6 +18,13 @@ Next the Standard Scaler(plus fit.transform function) & SciKitLearn was used to 
 A best value for k was chosen as follows: 
 1. Created a list with the number of k-values with a range of 1 - 11. A empty inertia List was created for storing inertia data using a For Loop which was then fitted t the scaled dataframe. The First Elbow chart was created to pick the best value for k. (=4)
 Ths was followed by predicting the clusters group using the original data set & the array outputs were checked along with the generated Dataframes. A new column labelled CryptoClusters was created that showed the scaled data. This was then plotted using a scatter plot. 
-The second phase of the analysis was to use the Principal Component Analysis (PCA) method. Teh data clusters were reduced to 3 principle components &  the variance was determined. We observed that the first principal component contains 33.7% of the variance, and the second principal component contains 31.35% of the variance. Both components together thus contain approximately 65% of the original information. The third principal contains approximately 23.41% to bring the total explained variance to approx. 88.41%.
-Further a new DF was created &  the three columns of PCA values generated were checked. The best k value was re-determined & found to still be k= 4 based off the resulting Elbow Plots  & Scatter /Cluster plots. The Composite plots were compared to show hardly any change in the cluster formation of the datasets. Hence no efficiencies were gained by using the PCA methiodology for this dataset.
-In summary it is recommended that additonal datasets be screened using ths methodology to determine if the PCA analysis lends value to reduction in analytical time as the usefulness of this tool cannot n=be determined using just one dataset.  
+The second phase of the analysis was to use the Principal Component Analysis (PCA) method. The data clusters were reduced to 3 principle components &  the variance was determined. We observed that the first principal component contains 33.7% of the variance, and the second principal component contains 31.35% of the variance. Both components together thus contain approximately 65% of the original information. The third principal contains approximately 23.41% to bring the total explained variance to approx. 88.41%.
+Further a new DF was created &  the three columns of PCA values generated were checked. The best k value was re-determined & found to still be k= 4 based off the resulting Elbow Plots  & Scatter /Cluster plots. The Composite plots were compared to show hardly any change in the cluster formation of the datasets. 
+![image](https://user-images.githubusercontent.com/85462153/130389025-5e6c1644-50e4-471e-8d3f-ba38acc31467.png)
+
+![image](https://user-images.githubusercontent.com/85462153/130389040-7a067bdc-fd21-4538-b15a-e4e08be0430f.png)
+
+
+
+Hence no efficiencies were gained by using the PCA methiodology for this dataset.
+In summary it is recommended that additonal datasets be screened using ths methodology to determine if the PCA analysis lends value to reduction in analytical time as the usefulness of this tool cannot be determined using just one dataset.  
