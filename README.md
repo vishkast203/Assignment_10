@@ -14,6 +14,7 @@ The software used was Python version 3.8 along with Jupyter NoteBooks. The Libra
 Data Analytical Steps:
 First the csv file provided was loaded for review as a dataframe. The data was then checked for consistency using the HEad & Tail functions. The desctribe function was used to primarily verify the data counts and the general statistical summary of the data. The dataset was finally reviewed using a line plot of the various crypto currencies.
 Next the Standard Scaler(plus fit.transform function) & SciKitLearn was used to create a scaled data set & a new dataframe was created using the coin_id colums as the index. 
+![image](https://user-images.githubusercontent.com/85462153/130389129-8f5270ac-9381-4e81-a3bc-c3528753bded.png)
 
 A best value for k was chosen as follows: 
 1. Created a list with the number of k-values with a range of 1 - 11. A empty inertia List was created for storing inertia data using a For Loop which was then fitted t the scaled dataframe. The First Elbow chart was created to pick the best value for k. (=4)
